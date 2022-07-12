@@ -3,7 +3,7 @@ LANG=en_US.UTF-8
     if [ $(whoami) != "root" ];then
 	echo "请使用root权限执行本脚本!!!"
 	exit 1;
-	fi   //检测Root权限
+	fi   
     sleep 1s
 
     echo -e "\e[37m 你正在执行Centos7/8的Java自动安装脚本 \e[0m"
